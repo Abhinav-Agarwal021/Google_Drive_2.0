@@ -1,0 +1,21 @@
+.Sidebar__items {
+  display: flex;
+  padding: 10px 0;
+  border-radius: 0 100px 100px 0;
+  color: rgb(70, 70, 70);
+  font-size: 13px;
+  cursor: pointer;
+}
+.Sidebar__items:hover {
+  background-color: rgba(0, 0, 0, 0.04);
+}
+.sidebar__main {
+  display: flex;
+  align-items: center;
+}
+.sidebar__main > p {
+  margin-left: 12px;
+}
+.sidebar__arrow {
+  width: 28px;
+}

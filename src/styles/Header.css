@@ -1,0 +1,69 @@
+.Header {
+  display: flex;
+  height: 65px;
+  border-bottom: 1px solid rgb(209, 209, 209);
+  align-items: center;
+}
+.Header > div {
+  padding: 20px;
+}
+
+.Header__logo > img {
+  width: 35px;
+  height: 33px;
+}
+
+.Header__logo {
+  display: flex;
+  align-items: center;
+  justify-content: "flex-start";
+  min-width: 200px;
+  user-select: none;
+}
+.Header__logo > span {
+  color: rgb(94, 94, 94);
+  font-size: 22px;
+  margin-left: 12px;
+  font-weight: 400;
+}
+.Header__searchbar {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.searchbar {
+  display: flex;
+  align-items: center;
+  background-color: rgb(238, 238, 238);
+  border-radius: 8px;
+  min-width: 90%;
+}
+.searchbar > .MuiSvgIcon-root {
+  color: rgb(99, 99, 99);
+}
+.searchbar > input {
+  flex: 1;
+  height: 60%;
+  font-size: 16px;
+  color: rgb(238, 238, 238);
+  background: none;
+  margin-left: 12px;
+  border: none;
+}
+
+.searchbar > input:focus {
+  outline: none;
+  color: black;
+}
+
+.Header__icons {
+  display: flex;
+  align-items: center;
+  margin-right: -15px;
+}
+.Header__icons > .MuiSvgIcons-root {
+  font-size: 28px;
+  color: rgb(99, 99, 99);
+  margin: 4px;
+}

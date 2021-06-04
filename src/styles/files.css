@@ -1,0 +1,24 @@
+.files {
+  width: 100%;
+}
+.file__card {
+  height: 250px;
+  align-items: center;
+  display: flex;
+}
+.files__titles {
+  display: flex;
+  margin-bottom: 5px;
+  color: rgb(95, 87, 87);
+}
+
+.files__titles > div > * {
+  margin: 5px;
+}
+
+.filetitles__left {
+  flex: 1;
+}
+.filetitles__right {
+  display: flex;
+}
